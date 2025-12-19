@@ -1,0 +1,90 @@
+{"name": "2025 Expenses", "value": 1044430, "children": [			
+	{"name": "Food", "value": 258027, "children": [		
+		{"name": "Metro", "value": 10987},	
+		{"name": "L'Epi D'Or", "value": 7788},	
+		{"name": "ProNatura", "value": 103372},	
+		{"name": "PromoCash", "value": 7573},	
+		{"name": "Saigon Express", "value": 24587},	
+		{"name": "E.Leclerc", "value": 5897},	
+		{"name": "ActiBio", "value": 45071},	
+		{"name": "For Monastics", "value": 17136, "children": [	
+			{"name": "Tet", "value": 2555},
+			{"name": "Burger King", "value": 1186}]}]},
+	{"name": "Maintenance", "value": 144520, "children": [		
+		{"name": "Contractors: Structural", "value": 26070, "children": [	
+			{"name": "Wastewater System Maintenance", "value": 5735},
+			{"name": "SH Repairs by Jun", "value": 13290}]},
+		{"name": "Contractors: Repairs", "value": 5963, "children": [	
+			{"name": "Kitchen Deep Clean (ProtecNet)", "value": 1920},
+			{"name": "Empty Septic Tanks", "value": 3118}]},
+		{"name": "Buy tools, materials", "value": 19462, "children": [	
+			{"name": "New Hot Water Heater (Styx)", "value": 1482},
+			{"name": "New STIHL batteries", "value": 2096},
+			{"name": "Materials for Jun", "value": 2196},
+			{"name": "LEDs and Toilet Repair", "value": 3001}]},
+		{"name": "Repairing equip.", "value": 24826, "children": [	
+			{"name": "Tractor (Terravi)", "value": 4080},
+			{"name": "Motoculture", "value": 3213},
+			{"name": "Desembouage (Heating Water Cleaning)", "value": 9989}]},
+		{"name": "Inspection certification", "value": 14659},	
+		{"name": "Renovation", "value": 47701, "children": [	
+			{"name": "Big Hall Facade Repaint", "value": 17979},
+			{"name": "New Fence for Big Hall Heat Pump (Cost of Wood)", "value": 800},
+			{"name": "SH Gym Renovation by Jun", "value": 4035},
+			{"name": "Adding mosquito nets by Jun", "value": 2040},
+			{"name": "West Hamlet: Replace Window", "value": 1561},
+			{"name": "Renew Happy Farm Toilet", "value": 6362}]},
+		{"name": "Maintenance of equipment that adds value", "value": 5095}]},	
+	{"name": "Site Improvement", "value": 63742, "children": [		
+		{"name": "5 New Glamping Tents", "value": 40500},	
+		{"name": "Street Mirror Le Pinadas", "value": 1425},	
+		{"name": "New Deck for Volleyball Hut (Wood)", "value": 1000},	
+		{"name": "Chopping Area: Roof and Concrete", "value": 15452}]},	
+	{"name": "Utilities", "value": 176932, "children": [		
+		{"name": "Water", "value": 50964},	
+		{"name": "Electricity", "value": 58291},	
+		{"name": "Telecommunication", "value": 12709},	
+		{"name": "Trash", "value": 12453, "children": [	
+			{"name": "Buy Big Trash Bins", "value": 1423}]},
+		{"name": "Gas", "value": 42516}]},	
+	{"name": "Labor Costs", "value": 115783, "children": [		
+		{"name": "Lionel", "value": 42000},	
+		{"name": "Mick", "value": 27000},	
+		{"name": "Elina", "value": 24000},	
+		{"name": "Patrice", "value": 14952}]},	
+	{"name": "Transportation", "value": 100782, "children": [		
+		{"name": "Car Fuel", "value": 19466},	
+		{"name": "Car maintenance", "value": 35206, "children": [	
+			{"name": "Eric Rouquette", "value": 21940}]},
+		{"name": "Home Visits", "value": 29330, "children": [	
+			{"name": "Flights", "value": 25974}]},
+		{"name": "Bus rental", "value": 14215}]},	
+	{"name": "Pocket Money", "value": 43450},		
+	{"name": "Landscaping", "value": 46018, "children": [		
+		{"name": "Lotus Pond Renewal", "value": 4694},	
+		{"name": "New Trench to Big Hall (Fix Water Leak)", "value": 2654},	
+		{"name": "Path maintenance", "value": 6760, "children": [	
+			{"name": "Tree Cutting (incl. by Paul)", "value": 5060}]},
+		{"name": "Happy Farm", "value": 18800}]},	
+	{"name": "Household Items", "value": 56124, "children": [		
+		{"name": "Bedding", "value": 7090},	
+		{"name": "Kitchenware", "value": 6898},	
+		{"name": "Decoration", "value": 6739, "children": [	
+			{"name": "DGD: New Tables (TD)", "value": 3130}]},
+		{"name": "Furniture", "value": 3960},	
+		{"name": "Toiletries (e.g. Soap)", "value": 2143},	
+		{"name": "New Mats and Cushions", "value": 3043},	
+		{"name": "Monastics needs", "value": 9126, "children": [	
+			{"name": "Amazon", "value": 3350}]},
+		{"name": "Cleaning supplies", "value": 6516}]},	
+	{"name": "Other", "value": 39052, "children": [		
+		{"name": "Medical care", "value": 16260, "children": [	
+			{"name": "Dental", "value": 2700},
+			{"name": "Vitamins", "value": 1316}]},
+		{"name": "Gite rental", "value": 6196},	
+		{"name": "Sound and Video Team", "value": 4466},	
+		{"name": "Gifts (Volunteers, Family)", "value": 6140, "children": [	
+			{"name": "Volunteers", "value": 3355},
+			{"name": "Monastics Departing", "value": 2020}]},
+		{"name": "Legal, Paperwork, Taxes", "value": 5990}]}	
+]}			
