@@ -1,11 +1,3 @@
-.myBackdrop {
-  mask-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 50%, rgba(0, 0, 0, 0.4) 100%);
-  /* 3. Ensure the mask scales with your JS animations */
-  mask-size: 100% 100%;
-  mask-repeat: no-repeat;
-  overflow: hidden;
-}
-
 @font-face {
     font-family: "Nimbus Sans Narrow";
     src:
@@ -17,6 +9,31 @@
     font-weight: bold;
 }
 
+body {
+  margin: 1em;
+}
+
+#container {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  /* height: 900px; */
+}
+
+#container svg {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+.myBackdrop {
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 50%, rgba(0, 0, 0, 0.4) 100%);
+  /* 3. Ensure the mask scales with your JS animations */
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  overflow: hidden;
+}
+
 .label {
   font-family: Nimbus Sans Narrow, PT Sans Narrow;
   pointer-events: none;
@@ -24,16 +41,21 @@
   user-select: none;
 }
 
-body {
-  margin: 1em;
+.GsunburstText {
+  text-anchor: middle;
+  pointer-events: none;
+  font-weight: bold;
+  user-select: none;
+}
+.GsunburstText > text {
+  font-family: Nimbus Sans Narrow, PT Sans Narrow;
+  font-weight: bold;
 }
 
-#container {
-  max-width: 100%;
-  width: 100%;
+#chartSelection {
+  opacity: 0.3;
+  transition: opacity 0.3s;
 }
-
-#container svg {
-  max-width: 100%;
-  height: auto;
+#chartSelection:hover {
+  opacity: 1;
 }
