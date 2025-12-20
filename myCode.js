@@ -52,7 +52,12 @@ function icicle(data) {
   const height = 930;
 
   // Create the color scale.
-  const color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1));
+  // const color = d3.scaleOrdinal(d3.quantize(d3.interpolateViridis, data.children.length + 1));
+  // 80 is high lightness and 30 is low colorness.
+  const color = d3.scaleOrdinal(d3.quantize(t => {
+      const {l, c, h} = d3.lch(d3.interpolateYlGnBu(t))
+      return d3.lch(77, 40, h)
+    }, data.children.length + 1));
 
   // Compute the layout.
   let hierarchy = d3.hierarchy(data)
@@ -185,7 +190,10 @@ function icicleStatic(data) {
   const format = d3.format(",d");
 
   // Create a color scale (a color for each child of the root node and their descendants).
-  const color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1))
+  const color = d3.scaleOrdinal(d3.quantize(t => {
+      const {l, c, h} = d3.lch(d3.interpolateYlGnBu(t))
+      return d3.lch(77, 40, h)
+    }, data.children.length + 1));
 
   // Create a partition layout.
   const partition = d3.partition()
@@ -274,7 +282,6 @@ function icicleStatic(data) {
   return svg
 }
 
-
 function sunburstZoomable(data) {
   // Specify the chart’s dimensions.
   const width = 928;
@@ -282,7 +289,10 @@ function sunburstZoomable(data) {
   const radius = width / 6;
 
   // Create the color scale.
-  const color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1));
+  const color = d3.scaleOrdinal(d3.quantize(t => {
+      const {l, c, h} = d3.lch(d3.interpolateYlGnBu(t))
+      return d3.lch(84, 40, h)
+    }, data.children.length + 1));
 
   // Compute the layout.
   let hierarchy = d3.hierarchy(data)
